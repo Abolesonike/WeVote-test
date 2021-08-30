@@ -2,11 +2,9 @@ package com.fizzy.wevote.controller;
 
 import com.fizzy.wevote.data.UserRepository;
 import com.fizzy.wevote.entity.User;
-import com.fizzy.wevote.service.UserService;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.Resource;
 
 @RestController
 @RequestMapping(path = "/user", produces = "application/json")
